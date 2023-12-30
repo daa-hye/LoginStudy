@@ -1,0 +1,16 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "%@ 인증 취소" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 인증 취소"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

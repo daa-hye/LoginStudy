@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "6zU-3w-ap6.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Face ID\"; ObjectID = \"6zU-3w-ap6\"; Note = \"faceid\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Face ID"
+          }
+        }
+      }
+    },
+    "6zU-3w-ap6.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"6zU-3w-ap6\"; Note = \"faceid\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "fJv-5P-DzT.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Button\"; ObjectID = \"fJv-5P-DzT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "fJv-5P-DzT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"fJv-5P-DzT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

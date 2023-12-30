@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53639EFA2B3E6357000EE934 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53639EF92B3E6357000EE934 /* AuthenticationManager.swift */; };
+		53639EFC2B3E6FA5000EE934 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 53639EFB2B3E6FA5000EE934 /* Localizable.xcstrings */; };
+		53639F052B3E8DED000EE934 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 53639F042B3E8DED000EE934 /* InfoPlist.xcstrings */; };
 		53C87F702B3D02C800886E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C87F6F2B3D02C800886E22 /* AppDelegate.swift */; };
 		53C87F722B3D02C800886E22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C87F712B3D02C800886E22 /* SceneDelegate.swift */; };
 		53C87F742B3D02C800886E22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C87F732B3D02C800886E22 /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53639EF82B3D0C20000EE934 /* LoginStudy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginStudy.entitlements; sourceTree = "<group>"; };
+		53639EF92B3E6357000EE934 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		53639EFB2B3E6FA5000EE934 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		53639F012B3E7386000EE934 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		53639F042B3E8DED000EE934 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		53C87F6C2B3D02C800886E22 /* LoginStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C87F6F2B3D02C800886E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C87F712B3D02C800886E22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 		53C87F6E2B3D02C800886E22 /* LoginStudy */ = {
 			isa = PBXGroup;
 			children = (
+				53639EF82B3D0C20000EE934 /* LoginStudy.entitlements */,
 				53C87F6F2B3D02C800886E22 /* AppDelegate.swift */,
 				53C87F712B3D02C800886E22 /* SceneDelegate.swift */,
 				53C87F732B3D02C800886E22 /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				53C87F782B3D02CB00886E22 /* Assets.xcassets */,
 				53C87F7A2B3D02CB00886E22 /* LaunchScreen.storyboard */,
 				53C87F7D2B3D02CB00886E22 /* Info.plist */,
+				53639EF92B3E6357000EE934 /* AuthenticationManager.swift */,
+				53639F042B3E8DED000EE934 /* InfoPlist.xcstrings */,
+				53639EFB2B3E6FA5000EE934 /* Localizable.xcstrings */,
 			);
 			path = LoginStudy;
 			sourceTree = "<group>";
@@ -104,11 +116,12 @@
 			};
 			buildConfigurationList = 53C87F672B3D02C800886E22 /* Build configuration list for PBXProject "LoginStudy" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 53C87F632B3D02C800886E22;
 			productRefGroup = 53C87F6D2B3D02C800886E22 /* Products */;
@@ -126,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C87F7C2B3D02CB00886E22 /* LaunchScreen.storyboard in Resources */,
+				53639F052B3E8DED000EE934 /* InfoPlist.xcstrings in Resources */,
 				53C87F792B3D02CB00886E22 /* Assets.xcassets in Resources */,
+				53639EFC2B3E6FA5000EE934 /* Localizable.xcstrings in Resources */,
 				53C87F772B3D02C800886E22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C87F742B3D02C800886E22 /* ViewController.swift in Sources */,
+				53639EFA2B3E6357000EE934 /* AuthenticationManager.swift in Sources */,
 				53C87F702B3D02C800886E22 /* AppDelegate.swift in Sources */,
 				53C87F722B3D02C800886E22 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,6 +167,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				53C87F762B3D02C800886E22 /* Base */,
+				53639F012B3E7386000EE934 /* mul */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -290,16 +307,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginStudy/LoginStudy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KLYH4UN5ZC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginStudy/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "페이스 아이디 인증할거에영";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +327,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahye.LoginStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,16 +341,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoginStudy/LoginStudy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KLYH4UN5ZC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LoginStudy/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "페이스 아이디 인증할거에영";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +361,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahye.LoginStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
